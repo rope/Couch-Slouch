@@ -1072,15 +1072,15 @@
 				ORGANIZATIONNAME = "Daniel Kennett";
 				TargetAttributes = {
 					503F564715DD8179007F2F3E = {
-						DevelopmentTeam = Z3SAA98JEE;
+						DevelopmentTeam = XG847827XS;
 						ProvisioningStyle = Automatic;
 					};
 					508DEB7E1618404F00413CD9 = {
-						DevelopmentTeam = Z3SAA98JEE;
+						DevelopmentTeam = XG847827XS;
 						ProvisioningStyle = Automatic;
 					};
 					50A8C00317F88DE50021E825 = {
-						DevelopmentTeam = Z3SAA98JEE;
+						DevelopmentTeam = XG847827XS;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1090,6 +1090,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 503F563D15DD8179007F2F3E;
@@ -1497,9 +1498,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = Z3SAA98JEE;
+				DEVELOPMENT_TEAM = XG847827XS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/vendor\"",
@@ -1515,7 +1517,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/vendor/p8-platform-build",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				OTHER_CFLAGS = "-DHAVE_P8_USB=1";
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_BUNDLE_IDENTIFIER = org.danielkennett.CouchSlouch;
@@ -1530,9 +1532,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = Z3SAA98JEE;
+				DEVELOPMENT_TEAM = XG847827XS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/vendor\"",
@@ -1548,7 +1551,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/vendor/p8-platform-build",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				OTHER_CFLAGS = "-DHAVE_P8_USB=1";
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_BUNDLE_IDENTIFIER = org.danielkennett.CouchSlouch;
@@ -1564,9 +1567,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = Z3SAA98JEE;
+				DEVELOPMENT_TEAM = XG847827XS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/Couch Slouch Login Helper-Prefix.pch";
 				INFOPLIST_FILE = "Resources/Couch Slouch Login Helper-Info.plist";
@@ -1586,9 +1590,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = Z3SAA98JEE;
+				DEVELOPMENT_TEAM = XG847827XS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/Couch Slouch Login Helper-Prefix.pch";
 				INFOPLIST_FILE = "Resources/Couch Slouch Login Helper-Info.plist";
@@ -1615,9 +1620,10 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = Z3SAA98JEE;
+				DEVELOPMENT_TEAM = XG847827XS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/ScriptRunner-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1629,7 +1635,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "Resources/ScriptRunner-Info.plist";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_NAME}";
 				PRODUCT_NAME = "org.danielkennett.$(TARGET_NAME:rfc1034identifier)";
 				PROVISIONING_PROFILE = "";
@@ -1651,9 +1657,10 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = Z3SAA98JEE;
+				DEVELOPMENT_TEAM = XG847827XS;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/ScriptRunner-Prefix.pch";
@@ -1662,7 +1669,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "Resources/ScriptRunner-Info.plist";
 				MACH_O_TYPE = mh_execute;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_NAME}";
 				PRODUCT_NAME = "org.danielkennett.$(TARGET_NAME:rfc1034identifier)";
 				PROVISIONING_PROFILE = "";

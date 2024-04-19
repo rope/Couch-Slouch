@@ -1,13 +1,13 @@
 [submodule "vendor/StartAtLoginController"]
 	path = vendor/StartAtLoginController
-	url = git://github.com/alexzielenski/StartAtLoginController.git
+	url = https://github.com/alexzielenski/StartAtLoginController.git
 [submodule "vendor/libcec"]
 	path = vendor/libcec
-	url = git://github.com/iKenndac/libcec.git
+	url = https://github.com/rope/libcec.git
 [submodule "vendor/KNSharedCodeRepository"]
 	path = vendor/KNSharedCodeRepository
-	url = git://github.com/iKenndac/KNSharedCodeRepository.git
+	url = https://github.com/iKenndac/KNSharedCodeRepository.git
 	
 [submodule "vendor/p8-platform"]
 	path = vendor/p8-platform
-	url = git@github.com:Pulse-Eight/platform.git
+	url = git@github.com:rope/platform.git

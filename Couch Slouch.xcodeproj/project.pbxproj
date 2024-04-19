@@ -1087,10 +1087,9 @@
 			};
 			buildConfigurationList = 503F564215DD8179007F2F3E /* Build configuration list for PBXProject "Couch Slouch" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = 503F563D15DD8179007F2F3E;

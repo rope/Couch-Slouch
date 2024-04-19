@@ -3,7 +3,7 @@
 	url = https://github.com/alexzielenski/StartAtLoginController.git
 [submodule "vendor/libcec"]
 	path = vendor/libcec
-	url = https://github.com/rope/libcec.git
+	url = git@github.com:rope/libcec.git
 [submodule "vendor/KNSharedCodeRepository"]
 	path = vendor/KNSharedCodeRepository
 	url = https://github.com/iKenndac/KNSharedCodeRepository.git
